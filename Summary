@@ -1,2 +1,12 @@
 # Fortigate Topic 
 1.Best Practices for Firmware Upgrades and Downgrades
+Device : Fortigate 
+Pre-requisite:
+1. Reason for upgrade :
+2.Administrator should have admin access or user have read or write configuration access. 
+3. website :http://support.fortinet.com/.  --> from here administrator can download the firmware image and access technical docuement. 
+Note : Make sure,you should be copy the checksum and md5 to verify the correct image.
+
+ 
+
+
