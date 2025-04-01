@@ -10,6 +10,14 @@ Note : Make sure,you should be copy the checksum and md5 to verify the correct i
 4. Changes should be performed during a maintenance window to avoid any unexpected problems.
 4. If the plan is to upgrade, double-check the upgrade path tool and release notes concerning the model and the version. 
 
+Upgrade 
+Step 1. FortiOS by default downloads a config backup to local machine when initiating the upgrade from GUI. If required it can be downloaded manually as shown below.
+
+
+
+Alternatively, from the CLI, run the following command:
+execute backup config 
+tftp <string> <tftp server IP> <- The TFTP server must be reachable from the FortiGate.
  
 
 
