@@ -6,6 +6,9 @@ Pre-requisite:
 2.Administrator should have admin access or user have read or write configuration access. 
 3. website :http://support.fortinet.com/.  --> from here administrator can download the firmware image and access technical docuement. 
 Note : Make sure,you should be copy the checksum and md5 to verify the correct image.
+4. Firmware Images Checksums Link: Download locally and verify the hash of the Firmware that will be flashed
+4. Changes should be performed during a maintenance window to avoid any unexpected problems.
+4. If the plan is to upgrade, double-check the upgrade path tool and release notes concerning the model and the version. 
 
  
 
