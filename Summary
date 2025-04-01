@@ -12,8 +12,7 @@ Note : Make sure,you should be copy the checksum and md5 to verify the correct i
 
 Upgrade 
 Step 1. FortiOS by default downloads a config backup to local machine when initiating the upgrade from GUI. If required it can be downloaded manually as shown below.
-
-
+Admin-->System--> Backup 
 
 Alternatively, from the CLI, run the following command:
 execute backup config 
