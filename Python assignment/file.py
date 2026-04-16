@@ -1,0 +1,6 @@
+f =open('data.txt','r+')
+data=f.read()
+f.read()
+print(data)
+f.write("This is new line \n")
+f.close()
